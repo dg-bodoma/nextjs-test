@@ -1,7 +1,7 @@
 import { GetServerSideProps, NextPage } from 'next';
 import Head from 'next/head';
 
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 type SSRProps = {
     message: string,
